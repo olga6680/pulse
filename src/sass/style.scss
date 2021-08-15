@@ -1,0 +1,23 @@
+ @import 'base/variables';
+ @import 'base/media';
+ * {
+     font-family: 'Museo Sans', serif;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .container {
+     max-width: 950px;
+     margin: 0 auto;
+ }
+ 
+ @import 'block/promo';
+ @import 'block/header';
+ @import 'block/titles';
+ @import 'block/buttons';
+ @import 'block/advantages';
+ @import 'block/consultation';
+ @import 'block/forms';
+ @import 'block/carousel';
