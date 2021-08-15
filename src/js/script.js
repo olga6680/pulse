@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/* $(document).ready(function() {
     $('.carousel__inner').slick({
         speed: 1200,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron-left.png"></button>',
@@ -11,4 +11,16 @@ $(document).ready(function() {
             }
         }]
     });
+}); */
+
+const slider = tns({
+    container: '.carousel__inner',
+    items: 1,
+    slideBy: 'page',
+    autoplay: false
 });
+
+
+document.querySelector('.prev').addEventListener = function() {
+    slider.goTo('prev');
+};
