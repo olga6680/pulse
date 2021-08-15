@@ -18,7 +18,8 @@ const slider = tns({
     items: 1,
     slideBy: 'page',
     autoplay: false,
-    controls: false
+    controls: false,
+    nav: false
 });
 
 
