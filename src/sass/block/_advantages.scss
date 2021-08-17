@@ -28,6 +28,12 @@
         margin: 0 auto;
         width: 70px;
         height: 70px;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__icon1 {
         background: url('../../icons/excellence/cup.png') center (center/cover) no-repeat;
